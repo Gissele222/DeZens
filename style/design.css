@@ -4,6 +4,7 @@ body {
 
 h1 {
   color: aliceblue;
+  text-align: center;
 }
 
 h3 {
@@ -45,7 +46,7 @@ p {
 }
 
 .hero-gallery h1 {
-  margin: 10px 20px;
+  margin-top: 50px;
   color: aliceblue;
   font-size: 28px;
   font-weight: lighter;
@@ -55,6 +56,7 @@ p {
   margin: 0 auto;
   justify-content: space-around;
 }
+
 
 img {
   display: flex;
@@ -79,4 +81,10 @@ img {
   font-weight: lighter;
   color: black;
   font-size: 42px;
+}
+
+.events-container {
+  margin-top: 90px;
+  background-color: gray;
+  border-radius: 10px;
 }

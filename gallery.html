@@ -25,26 +25,82 @@
     <link rel="stylesheet" href="style/design.css" />
   </head>
   <body>
-    <div class="hero-gallery">
-    <h1>Gallery</h1>
-    <p>Hello there</p>
-    <img src="images/million.jpg" />
-
-    <div class="container">
-      <div class="grid">
-        <img src="images/gallery-1.jpg" />
-        <img src="images/gallery-3.JPEG" />
-
-        <img src="images/gallery-2.jpg" />
-
-        <img src="images/gallery-4.jpg" />
-        <img src="images/gallery-5.jpg" />
-        <img src="images/gallery-6.jpeg" />
-        <img src="images/gallery-7.JPG" />
-        <img src="images/gallery-8.jpeg" />
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gallery</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              DeZens Art Gallery
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/events.html"
+                  >Events</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      
-    </div>
+    </nav>
+    <div class="hero-gallery">
+      <img src="images/million.jpg" />
+
+      <div class="container">
+        <div class="grid">
+          <img src="images/gallery-1.jpg" />
+          <img src="images/gallery-3.JPEG" />
+
+          <img src="images/gallery-2.jpg" />
+
+          <img src="images/gallery-4.jpg" />
+          <img src="images/gallery-5.jpg" />
+          <img src="images/gallery-6.jpeg" />
+          <img src="images/gallery-7.JPG" />
+          <img src="images/gallery-8.jpeg" />
+        </div>
+      </div>
     </div>
   </body>
 </html>
